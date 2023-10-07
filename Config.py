@@ -22,8 +22,8 @@ else:
     BOT_TOKEN = ""
     DATABASE_URL = ""
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "StarkBots"
+    MUST_JOIN = "CodeNexus_community"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
 
-DEVS = [1744109441, 1946995626]
+DEVS = [1225278379]
